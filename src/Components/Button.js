@@ -7,18 +7,21 @@ import images from "../utils/images";
 const Button = styled.button`
   width: 22px;
   height: 22px;
-  margin: 27px;
-  border: 1px solid red;
+  margin: 27px 23px 27px 0;
   outline: none;
-  background-image: url("");
   background-position: center;
   background-repeat: no-repeat;
   background-color: transparent;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  border: none;
 `;
 
 const ButtonTelegram = styled(Button)`
   background-image: url(${images.telegram});
-
 `;
 
 const ButtonInstagram = styled(Button)`
@@ -31,9 +34,16 @@ const ButtonWhatsapp = styled(Button)`
 
 const ButtonPhone = styled(Button)`
   width: auto;
+  color: #6D5F67;
 `;
 
-    
+const ButtonCallMe = styled(Button)`
+  width: 287px;
+  height: 73px;
+  background-color: #CBB387;
+  margin: 0;
+  color: #FFFFFF;
+`;
 
 <Button>
 </Button>
@@ -42,5 +52,6 @@ export {Button,
     ButtonTelegram,
     ButtonInstagram,
     ButtonWhatsapp,
-    ButtonPhone
+    ButtonPhone,
+    ButtonCallMe
 };

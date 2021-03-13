@@ -9,6 +9,7 @@ const Logo = styled.h3`
   font-weight: 300;
   font-size: 20px;
   line-height: 25px;
+  margin: 12px 0 11px 0;
   `;
 
 <Logo>

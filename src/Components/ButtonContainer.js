@@ -7,9 +7,9 @@ import {Button} from "./Button";
 
 
 const ButtonContainer = styled.div`
+    height: fit-content;
     display: flex;
     align-content: center;
-    
 `;
 
     <ButtonContainer>

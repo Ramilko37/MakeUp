@@ -1,3 +1,4 @@
+import React from "react";
 import Page from './Components/Page';
 import Header from "./Components/Header";
 import Logo from './Components/Logo';
@@ -6,9 +7,14 @@ import {
     ButtonTelegram,
     ButtonInstagram,
     ButtonWhatsapp,
-    ButtonPhone
+    ButtonPhone,
+    ButtonCallMe
 } from "./Components/Button";
-import React from "react";
+import Hero from "./Components/Hero";
+import HeroImage from "./Components/HeroImage";
+import HeroContentContainer from "./Components/HeroContentContainer";
+import HeroTitle from "./Components/HeroTitle";
+import HeroParagraph from "./Components/HeroParagraph";
 
 function App() {
   return (
@@ -22,10 +28,21 @@ function App() {
                <ButtonInstagram></ButtonInstagram>
                <ButtonWhatsapp></ButtonWhatsapp>
                <ButtonPhone>+7(926)422 86 80</ButtonPhone>
+               <ButtonCallMe>Написать в WhatsApp</ButtonCallMe>
            </ButtonContainer>
        </Header>
-
-          
+    <Hero>
+        <HeroImage></HeroImage>
+        <HeroContentContainer>
+            <HeroTitle> Гарантированно красивый образ
+                для мероприятия или фотосессии
+            </HeroTitle>
+            <HeroParagraph>
+                Профессиональные макияж и укладка с выездом на дом в Москве и МО
+            </HeroParagraph>
+            <ButtonCallMe>Написать в WhatsApp</ButtonCallMe>
+        </HeroContentContainer>
+    </Hero>
      </Page>
   );
 }
