@@ -1,10 +1,13 @@
-import Page from './Page';
-import Header from "./Header";
-import Logo from './Logo';
+import Page from './Components/Page';
+import Header from "./Components/Header";
+import Logo from './Components/Logo';
+import ButtonContainer from './Components/ButtonContainer';
 import {
-    Button,
-    ButtonTelegram
-} from "./Button";
+    ButtonTelegram,
+    ButtonInstagram,
+    ButtonWhatsapp,
+    ButtonPhone
+} from "./Components/Button";
 import React from "react";
 
 function App() {
@@ -14,15 +17,15 @@ function App() {
     <Logo>
         Людмила Бабакина
     </Logo>
-           <div>
-               <Button><img width={22} height={22} src="./Vector.png" alt=""/></Button>
+           <ButtonContainer>
                <ButtonTelegram></ButtonTelegram>
-               <Button></Button>
-               <Button></Button>
-               <Button></Button>
-           </div>
-
+               <ButtonInstagram></ButtonInstagram>
+               <ButtonWhatsapp></ButtonWhatsapp>
+               <ButtonPhone>+7(926)422 86 80</ButtonPhone>
+           </ButtonContainer>
        </Header>
+
+          
      </Page>
   );
 }
