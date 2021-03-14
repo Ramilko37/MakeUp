@@ -7,6 +7,8 @@ const HeroImage = styled.div`
     width: 532px;
     height: 664px;
     background-image: url("${images.hero_image}");
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-left: 44px;
     background-color: transparent;
   `;

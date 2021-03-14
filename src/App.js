@@ -15,6 +15,7 @@ import HeroImage from "./Components/HeroImage";
 import HeroContentContainer from "./Components/HeroContentContainer";
 import HeroTitle from "./Components/HeroTitle";
 import HeroParagraph from "./Components/HeroParagraph";
+import Portfolio from "./Components/Portfolio";
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
             <ButtonCallMe>Написать в WhatsApp</ButtonCallMe>
         </HeroContentContainer>
     </Hero>
+          <Portfolio>
+
+          </Portfolio>
      </Page>
   );
 }
