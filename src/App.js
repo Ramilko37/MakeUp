@@ -11,11 +11,11 @@ import {
     ButtonCallMe
 } from "./Components/Button";
 import Hero from "./Components/Hero";
-import HeroImage from "./Components/HeroImage";
 import HeroContentContainer from "./Components/HeroContentContainer";
-import HeroTitle from "./Components/HeroTitle";
-import HeroParagraph from "./Components/HeroParagraph";
+import Title from "./Components/Title";
+import Paragraph from "./Components/Paragraph";
 import Portfolio from "./Components/Portfolio";
+import images from "./utils/images";
 
 function App() {
   return (
@@ -33,19 +33,18 @@ function App() {
            </ButtonContainer>
        </Header>
     <Hero>
-        <HeroImage></HeroImage>
+        <img src={images.hero_image} alt=""/>
         <HeroContentContainer>
-            <HeroTitle> Гарантированно красивый образ
-                для мероприятия или фотосессии
-            </HeroTitle>
-            <HeroParagraph>
+            <Title titleMargin='0 0 24px'>
+                Гарантированно красивый образ для мероприятия или фотосессии
+            </Title>
+            <Paragraph paragraphMargin='0 0 60px'>
                 Профессиональные макияж и укладка с выездом на дом в Москве и МО
-            </HeroParagraph>
+            </Paragraph>
             <ButtonCallMe>Написать в WhatsApp</ButtonCallMe>
         </HeroContentContainer>
     </Hero>
           <Portfolio>
-
           </Portfolio>
      </Page>
   );

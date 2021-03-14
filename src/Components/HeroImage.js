@@ -3,13 +3,14 @@ import styled, {css} from 'styled-components'
 import { render, screen } from '@testing-library/react';
 import images from "../utils/images";
 
-const HeroImage = styled.div`
+const HeroImage = styled.image`
     width: 532px;
     height: 664px;
-    background-image: url("${images.hero_image}");
-    background-size: contain;
+    
+    background-position: inherit;
     background-repeat: no-repeat;
-    margin-left: 44px;
+
+    //margin-left: 44px;
     background-color: transparent;
   `;
 

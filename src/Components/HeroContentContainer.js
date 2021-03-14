@@ -8,7 +8,7 @@ const HeroContentContainer = styled.div`
     margin-left: 41px;
     margin-right: 120px;
     font-family: Merriweather;
-    border: 1px solid red;
+  padding: 162px 140px 265px 0;
   `;
 
 <HeroContentContainer></ HeroContentContainer>

@@ -2,12 +2,15 @@ import React from 'react';
 import styled, {css} from 'styled-components'
 import { render, screen } from '@testing-library/react';
 import images from '../utils/images';
+import Title from "./Title";
+import ButtonCallMe from "./ButtonContainer";
 
 const Hero = styled.div`
   width: 100%;
-  border: 1px solid red;
+  height: fit-content;
   display: flex;
-  background-color: rgba(247,241,244,.8);;
+  padding-left: 44px;
+  background-color: rgba(247,241,244,.8);
 `;
 
 <Hero>

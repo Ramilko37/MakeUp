@@ -7,6 +7,7 @@ const Logo = styled.h3`
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 300;
+  color: #6D5F67;
   font-size: 20px;
   line-height: 25px;
   margin: 12px 0 11px 0;
