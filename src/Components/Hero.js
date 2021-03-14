@@ -5,7 +5,7 @@ const Hero = styled.div`
   display: flex;
   padding-left: 44px;
   background-color: rgba(247,241,244,.8);
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 `;
 
 <Hero>

@@ -4,9 +4,14 @@ import images from "../utils/images";
 
 const Photo = styled.div`
     
-    background-image: url(${images.hero_image});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: ${props => props.photo || ''};
+    grid-column: ${props => props.column || ''};
+    grid-row: ${props => props.row || ''};
     `;
 
 <Photo></Photo>
 
 export default Photo;
+

@@ -1,6 +1,5 @@
 import React from 'react';
 import styled, {css} from 'styled-components'
-import { render, screen } from '@testing-library/react';
 
 
 const Paragraph = styled.div`
@@ -14,6 +13,7 @@ const Paragraph = styled.div`
   /* text / primary */
   color: #6D5F67;
   margin: ${props => props.paragraphMargin || ''};
+  width: ${props => props.paragraphWidth || ''};
 `;
 
 <Paragraph></Paragraph>
