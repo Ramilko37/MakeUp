@@ -4,7 +4,7 @@ import { render, screen } from '@testing-library/react';
 import images from '../utils/images';
 
 const Title = styled.h3`
-  
+  width: 663px;
   font-family: Playfair Display;
   font-style: normal;
   font-weight: normal;

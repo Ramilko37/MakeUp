@@ -6,7 +6,6 @@ import Title from "./Title";
 import ButtonCallMe from "./ButtonContainer";
 
 const Hero = styled.div`
-  width: 100%;
   height: fit-content;
   display: flex;
   padding-left: 44px;

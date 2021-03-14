@@ -11,11 +11,10 @@ const Paragraph = styled.div`
   font-size: 16px;
   line-height: 150%;
   /* identical to box height, or 24px */
-
   /* text / primary */
   color: #6D5F67;
   margin: ${props => props.paragraphMargin || ''};
-  `;
+`;
 
 <Paragraph></Paragraph>
 

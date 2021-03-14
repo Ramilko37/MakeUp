@@ -4,7 +4,7 @@ import { render, screen } from '@testing-library/react';
 import images from "../utils/images";
 
 const HeroContentContainer = styled.div`
-    width: auto;
+    max-width: 864px;
     margin-left: 41px;
     margin-right: 120px;
     font-family: Merriweather;
