@@ -15,6 +15,8 @@ import HeroContentContainer from "./Components/HeroContentContainer";
 import Title from "./Components/Title";
 import Paragraph from "./Components/Paragraph";
 import Portfolio from "./Components/Portfolio";
+import Grid from "./Components/Grid";
+import Photo from "./Components/Photo";
 import images from "./utils/images";
 
 function App() {
@@ -45,7 +47,12 @@ function App() {
         </HeroContentContainer>
     </Hero>
           <Portfolio>
+              <Title titleMargin='0 0 20px 0' titleWidth='1312px' textalignMargin='start'>Примеры моих работ</Title>
           </Portfolio>
+          <Grid>
+              <Photo></Photo>
+              <Photo></Photo><Photo></Photo><Photo></Photo><Photo></Photo><Photo></Photo>
+          </Grid>
      </Page>
   );
 }

@@ -4,7 +4,6 @@ import { render, screen } from '@testing-library/react';
 import images from '../utils/images';
 
 const Title = styled.h3`
-  width: 663px;
   font-family: Playfair Display;
   font-style: normal;
   font-weight: normal;
@@ -14,7 +13,9 @@ const Title = styled.h3`
   letter-spacing: 0.01em;
   /* text/headings */
   color: #4C4248;
+  width: ${props => props.titleWidth || '663px'};
   margin: ${props => props.titleMargin || ''};
+  text-align: ${props => props.textalignMargin || ''};;
 `;
 
 <Title> </Title>

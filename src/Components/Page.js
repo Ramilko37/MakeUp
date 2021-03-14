@@ -4,7 +4,6 @@ import { render, screen } from '@testing-library/react';
 
 
 const Page = styled.div`
-    
     margin: 0 auto;
     box-sizing: border-box;
 `;

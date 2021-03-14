@@ -1,13 +1,11 @@
 import React from 'react';
 import styled, {css} from 'styled-components'
-import { render, screen } from '@testing-library/react';
-import images from "../utils/images";
 
-
-const Portfolio = styled.button`
+const Portfolio = styled.div`
     border: 1px solid red;
-    width: 100%;
-  height: auto;
+    display: flex;
+    padding: 0 64px 0 64px;
+    height: fit-content;
     `;
 
 <Portfolio></Portfolio>
