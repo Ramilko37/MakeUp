@@ -6,9 +6,9 @@ import images from "../utils/images";
 const HeroContentContainer = styled.div`
     max-width: 864px;
     margin-left: 41px;
-    margin-right: 120px;
+    padding-top: 162px; 
     font-family: Merriweather;
-  padding: 162px 140px 265px 0;
+    //padding: 162px 140px 265px 0;
   `;
 
 <HeroContentContainer></ HeroContentContainer>
