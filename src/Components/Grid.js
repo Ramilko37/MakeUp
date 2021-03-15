@@ -10,6 +10,10 @@ const Grid = styled.div`
     margin: 0 auto;
     `;
 
+const GridBrands = styled(Grid)`
+    
+`;
+
 <Grid></Grid>
 
 export default Grid;

@@ -100,10 +100,10 @@ function App() {
         </AboutContentContainer>
         <Portrait portrait={`url(${images.about_photo})`}></Portrait>
     </About>
-          <Container background='rgba(247,241,244,.8)' flexDirection='column' width='1312px'>//поискать решение сделать норм ширину
+          <Container background='rgba(247,241,244,.8)' flexDirection='column'>//поискать решение сделать норм ширину
               <Title titleMargin='56px 0 48px 64px'>Стоимость</Title>
               <FlexBox flexDirection='row' margin='0 auto'>
-                  <FlexBox flexDirection='column' width='427px' height='300px' margin='0 16px 0 0' padding='56px 0 68px 0' background='#FFFFFF'>
+                  <FlexBox flexDirection='column' width='427px' height='300px' margin='0 16px 173px 0' padding='56px 0 68px 0' background='#FFFFFF'>
                       <PricesSubtitle margin='0 auto'>Макияж и укладка</PricesSubtitle>
                       <PricesParagraph>5000 ₽</PricesParagraph>
                       <SmallParagraph marginBottom='36px'>До 28 февраля 6̶5̶0̶0̶</SmallParagraph>
@@ -120,6 +120,13 @@ function App() {
                       <SmallParagraph marginBottom='4px'>Бесплатный выезд в пределах МКАД</SmallParagraph>
                   </FlexBox>
               </FlexBox>
+          </Container>
+          <Container flexDirection='column' padding='120px 64px'>
+              <Title titleMargin='0 0 48px 0' titleWidth='962px'>Работаю только с профессиональной косметикой</Title>
+              <Paragraph paragraphWidth='656px' paragraphMargin='0 0 112px 0'>В работе с клиентами важно использовать профессиональную, гиппоаллеренную косметику.
+                  И я выбираю бренды: Clarins, Clinique, Dewal, Estee Lauder, Inglot, Lancome, Loreal, MAC, Make Up For Ever,
+                  NYX, PAESE, Shiseido, Too Faced, Urban Decay</Paragraph>
+              <Grid>Привет, я буду ГРИДОМ, но сейчас я занят.</Grid>
           </Container>
      </Page>
   );
