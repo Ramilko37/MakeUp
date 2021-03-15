@@ -7,7 +7,7 @@ const Subtitle = styled.h6`
   font-weight: normal;
   font-size: 24px;
   line-height: 30px;
-  margin: 0 0 8px 0;
+  margin: 0 0 8px;
   /* text/headings */
   color: #4C4248;
   width: ${props => props.titleWidth || ''};
@@ -15,6 +15,20 @@ const Subtitle = styled.h6`
   text-align: ${props => props.textalignMargin || ''};;
 `;
 
-<Subtitle> </Subtitle>
+const PricesSubtitle = styled(Subtitle)`
+          font-family: Merriweather;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 28px;
+          line-height: 35px;
+          text-align: center;
+          /* text/headings */
+          color: #4C4248;
+`;
 
-export default Subtitle;
+<Subtitle></Subtitle>
+
+export {
+    Subtitle,
+    PricesSubtitle,
+    }

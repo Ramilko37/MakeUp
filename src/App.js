@@ -13,7 +13,7 @@ import {
 import Hero from "./Components/Hero";
 import HeroContentContainer from "./Components/HeroContentContainer";
 import Title from "./Components/Title";
-import Subtitle from "./Components/Subtitle";
+import {Subtitle} from "./Components/Subtitle";
 import Paragraph from "./Components/Paragraph";
 import Portfolio from "./Components/Portfolio";
 import Grid from "./Components/Grid";
@@ -22,7 +22,11 @@ import About from "./Components/About";
 import AboutContentContainer from "./Components/AboutContentContainer";
 import AboutContentItem from "./Components/AboutContentItem";
 import Portrait from "./Components/Portrait";
+import Container from "./Components/Container";
+import FlexBox from "./Components/FlexBox";
+import {PricesSubtitle} from "./Components/Subtitle";
 import images from "./utils/images";
+
 
 function App() {
   return (
@@ -95,7 +99,17 @@ function App() {
         </AboutContentContainer>
         <Portrait portrait={`url(${images.about_photo})`}></Portrait>
     </About>
-          <Container> </>
+          <Container background='rgba(247,241,244,.8)' flexDirection='column'>
+              <Title titleMargin='56px 0 48px 64px'>Стоимость</Title>
+              <FlexBox flexDirection='row' margin='0 auto'>
+                  <FlexBox flexDirection='column' width='427px' height='300px' margin='0 16px 0 0' padding='56px 0 68px 0' background='#FFFFFF'>
+                      <PricesSubtitle margin='0 auto'>Макияж и укладка</PricesSubtitle>
+                  </FlexBox>
+                  <FlexBox flexDirection='column' width='427px' height='300px' padding='56px 0 68px 0'  background='#FFFFFF'>
+                      <PricesSubtitle margin='0 auto'>Макияж</PricesSubtitle>
+                  </FlexBox>
+              </FlexBox>
+          </Container>
      </Page>
   );
 }
