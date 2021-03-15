@@ -14,7 +14,7 @@ import Hero from "./Components/Hero";
 import HeroContentContainer from "./Components/HeroContentContainer";
 import Title from "./Components/Title";
 import {Subtitle} from "./Components/Subtitle";
-import Paragraph from "./Components/Paragraph";
+import {Paragraph} from "./Components/Paragraph";
 import Portfolio from "./Components/Portfolio";
 import Grid from "./Components/Grid";
 import Photo from "./Components/Photo";
@@ -25,6 +25,7 @@ import Portrait from "./Components/Portrait";
 import Container from "./Components/Container";
 import FlexBox from "./Components/FlexBox";
 import {PricesSubtitle} from "./Components/Subtitle";
+import {PricesParagraph, SmallParagraph} from "./Components/Paragraph";
 import images from "./utils/images";
 
 
@@ -99,14 +100,24 @@ function App() {
         </AboutContentContainer>
         <Portrait portrait={`url(${images.about_photo})`}></Portrait>
     </About>
-          <Container background='rgba(247,241,244,.8)' flexDirection='column'>
+          <Container background='rgba(247,241,244,.8)' flexDirection='column' width='1312px'>//поискать решение сделать норм ширину
               <Title titleMargin='56px 0 48px 64px'>Стоимость</Title>
               <FlexBox flexDirection='row' margin='0 auto'>
                   <FlexBox flexDirection='column' width='427px' height='300px' margin='0 16px 0 0' padding='56px 0 68px 0' background='#FFFFFF'>
                       <PricesSubtitle margin='0 auto'>Макияж и укладка</PricesSubtitle>
+                      <PricesParagraph>5000 ₽</PricesParagraph>
+                      <SmallParagraph marginBottom='36px'>До 28 февраля 6̶5̶0̶0̶</SmallParagraph>
+                      <SmallParagraph marginBottom='4px'>Макияж и прическа</SmallParagraph>
+                      <SmallParagraph marginBottom='4px'>Предварительная консультация</SmallParagraph>
+                      <SmallParagraph marginBottom='4px'>Бесплатный выезд в пределах МКАД</SmallParagraph>
                   </FlexBox>
                   <FlexBox flexDirection='column' width='427px' height='300px' padding='56px 0 68px 0'  background='#FFFFFF'>
                       <PricesSubtitle margin='0 auto'>Макияж</PricesSubtitle>
+                      <PricesParagraph>5000 ₽</PricesParagraph>
+                      <SmallParagraph marginBottom='36px'>До 28 февраля 6̶5̶0̶0̶</SmallParagraph>
+                      <SmallParagraph marginBottom='4px'>Макияж и прическа</SmallParagraph>
+                      <SmallParagraph marginBottom='4px'>Предварительная консультация</SmallParagraph>
+                      <SmallParagraph marginBottom='4px'>Бесплатный выезд в пределах МКАД</SmallParagraph>
                   </FlexBox>
               </FlexBox>
           </Container>

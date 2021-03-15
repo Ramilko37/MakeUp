@@ -8,6 +8,7 @@ const Container = styled.div`
     background: ${props => props.background || ''};
     flex-direction: ${props => props.flexDirection || ''};
     padding: ${props => props.padding || ''};
+    width: ${props => props.width || ''};
     `;
 
 <Container></Container>
