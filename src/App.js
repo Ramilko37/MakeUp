@@ -14,10 +14,10 @@ import Hero from "./Components/Hero";
 import HeroContentContainer from "./Components/HeroContentContainer";
 import Title from "./Components/Title";
 import {Subtitle} from "./Components/Subtitle";
-import {Paragraph} from "./Components/Paragraph";
+import {CoursiveParagraph, Paragraph} from "./Components/Paragraph";
 import Portfolio from "./Components/Portfolio";
-import Grid from "./Components/Grid";
-import Photo from "./Components/Photo";
+import {Grid, GridBrands} from "./Components/Grid";
+import {Photo, PhotoBrands, PhotoAvatar} from "./Components/Photo";
 import About from "./Components/About";
 import AboutContentContainer from "./Components/AboutContentContainer";
 import AboutContentItem from "./Components/AboutContentItem";
@@ -47,7 +47,7 @@ function App() {
     <Hero>
         <img src={images.hero_image} alt=""/>
         <HeroContentContainer>
-            <Title titleMargin='0 0 24px'>
+            <Title margin='0 0 24px'>
                 Гарантированно красивый образ для мероприятия или фотосессии
             </Title>
             <Paragraph paragraphMargin='0 0 60px'>
@@ -57,7 +57,7 @@ function App() {
         </HeroContentContainer>
     </Hero>
           <Portfolio>
-              <Title titleMargin='0 0 20px 64px' titleWidth='1312px' textalignMargin='start'>Примеры моих работ</Title>
+              <Title margin='0 0 20px 64px' width='1312px' textalignMargin='start'>Примеры моих работ</Title>
               <Grid>
                   <Photo photo={`url(${images.photo_05})`} column='1/6' row='1/4'></Photo>
                   <Photo photo={`url(${images.photo_02})`} column='6/9' row='1/4'></Photo>
@@ -70,7 +70,7 @@ function App() {
           </Portfolio>
     <About>
         <AboutContentContainer>
-            <Title titleMargin='60px 0 64px 0'>Почему я</Title>
+            <Title margin='60px 0 64px 0'>Почему я</Title>
             <AboutContentItem itemMargin='16px'>
                 <Subtitle>Индивидуальный подход</Subtitle>
                 <Paragraph paragraphWidth='317px'>Прическа и макияж будут красивыми, стойкими
@@ -101,7 +101,7 @@ function App() {
         <Portrait portrait={`url(${images.about_photo})`}></Portrait>
     </About>
           <Container background='rgba(247,241,244,.8)' flexDirection='column'>//поискать решение сделать норм ширину
-              <Title titleMargin='56px 0 48px 64px'>Стоимость</Title>
+              <Title margin='56px 0 48px 64px'>Стоимость</Title>
               <FlexBox flexDirection='row' margin='0 auto'>
                   <FlexBox flexDirection='column' width='427px' height='300px' margin='0 16px 173px 0' padding='56px 0 68px 0' background='#FFFFFF'>
                       <PricesSubtitle margin='0 auto'>Макияж и укладка</PricesSubtitle>
@@ -122,11 +122,28 @@ function App() {
               </FlexBox>
           </Container>
           <Container flexDirection='column' padding='120px 64px'>
-              <Title titleMargin='0 0 48px 0' titleWidth='962px'>Работаю только с профессиональной косметикой</Title>
+              <Title margin='0 0 48px 0' width='962px'>Работаю только с профессиональной косметикой</Title>
               <Paragraph paragraphWidth='656px' paragraphMargin='0 0 112px 0'>В работе с клиентами важно использовать профессиональную, гиппоаллеренную косметику.
                   И я выбираю бренды: Clarins, Clinique, Dewal, Estee Lauder, Inglot, Lancome, Loreal, MAC, Make Up For Ever,
                   NYX, PAESE, Shiseido, Too Faced, Urban Decay</Paragraph>
-              <Grid>Привет, я буду ГРИДОМ, но сейчас я занят.</Grid>
+              <GridBrands>
+                  <PhotoBrands photo={`url(${images.brand_01})`} column='1/3' row='1/1'></PhotoBrands>
+                  <PhotoBrands photo={`url(${images.brand_02})`} column='2/4' row='2/2'></PhotoBrands>
+                  <PhotoBrands photo={`url(${images.brand_03})`} column='4/7' row='1/2'></PhotoBrands>
+                  <PhotoBrands photo={`url(${images.brand_04})`} column='5/7' row='2/2'></PhotoBrands>
+                  <PhotoBrands photo={`url(${images.brand_05})`} column='7/9' row='1/2'></PhotoBrands>
+                  <PhotoBrands photo={`url(${images.brand_06})`} column='8/10' row='2/2'></PhotoBrands>
+                  <PhotoBrands photo={`url(${images.brand_07})`} column='10/12' row='1/2'></PhotoBrands>
+              </GridBrands>
+          </Container>
+          <Container flexDirection='column' background='#F7F1F4'>
+              <Title margin='56px 0 0 64px'>Отзывы моих клиентов</Title>
+              <FlexBox margin='174px auto' justify-content='center' flexDirection='column' width='648px' background='#FFFFFF'>
+                    <PhotoAvatar photo={`url(${images.photo_avatar})`}></PhotoAvatar>
+                    <Subtitle margin='24px auto 16px'>@avadakedavra</Subtitle>
+                    <CoursiveParagraph>Так неожиданно и приятно все было сделано, мне очень понравилось,
+                        всем рекомендую буду пользоваться еще раз.</CoursiveParagraph>
+              </FlexBox>
           </Container>
      </Page>
   );

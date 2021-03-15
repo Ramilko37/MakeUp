@@ -13,8 +13,8 @@ const Title = styled.h3`
   letter-spacing: 0.01em;
   /* text/headings */
   color: #4C4248;
-  width: ${props => props.titleWidth || '663px'};
-  margin: ${props => props.titleMargin || ''};
+  width: ${props => props.width || '663px'};
+  margin: ${props => props.margin || ''};
   text-align: ${props => props.textalignMargin || ''};;
 `;
 

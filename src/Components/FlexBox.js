@@ -9,6 +9,7 @@ const FlexBox = styled.div`
     margin: ${props => props.margin || '' };
     padding: ${props => props.padding || '' };
     background: ${props => props.background || ''};
+    justify-content: ${props => props.justifyContent || ''};
     `;
 
 <FlexBox></FlexBox>

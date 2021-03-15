@@ -39,9 +39,25 @@ const SmallParagraph = styled(Paragraph)`
   margin-bottom: ${props => props.marginBottom || ''};
 `;
 
+const CoursiveParagraph = styled(Paragraph)`
+        font-family: Merriweather;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        /* or 24px */
+        text-align: center;
+        width: 375px;
+        margin: 0 auto;
+
+        /* text / primary */
+        color: #6D5F67;
+`;
+
 <Paragraph></Paragraph>
 
 export {Paragraph,
         PricesParagraph,
         SmallParagraph,
+        CoursiveParagraph,
 };

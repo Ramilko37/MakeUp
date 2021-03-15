@@ -11,7 +11,7 @@ const Subtitle = styled.h6`
   /* text/headings */
   color: #4C4248;
   width: ${props => props.titleWidth || ''};
-  margin: ${props => props.titleMargin || ''};
+  margin: ${props => props.margin || ''};
   text-align: ${props => props.textalignMargin || ''};;
 `;
 
