@@ -6,7 +6,6 @@ const AboutContentContainer = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     width: 918px;
-    border: 1px solid red;
 `;
 
 <AboutContentContainer></AboutContentContainer>

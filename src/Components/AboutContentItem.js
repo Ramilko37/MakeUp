@@ -5,7 +5,7 @@ const AboutContentItem = styled.div`
     display: flex;
     flex-direction: column; 
     flex-wrap: wrap;
-    width: 430px;
+    width: 350px;
     margin-bottom: 64px;
     margin-right: ${props => props.itemMargin || ''};
 `;

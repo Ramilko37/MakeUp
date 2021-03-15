@@ -9,6 +9,7 @@ import photo_04 from  '../images/grid_photos/photo_04.jpg';
 import photo_05 from  '../images/grid_photos/photo_05.jpg';
 import photo_06 from  '../images/grid_photos/photo_06.jpg';
 import photo_07 from  '../images/grid_photos/photo_07.jpg';
+import about_photo from '../images/about_photo.png';
 
 const images = {
     whatsapp,
@@ -22,6 +23,7 @@ const images = {
     photo_05,
     photo_06,
     photo_07,
+    about_photo
 };
 
 export default images;

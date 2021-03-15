@@ -93,7 +93,7 @@ function App() {
                 <Paragraph paragraphWidth='317px'>Дипломированный визажист. В профессии с 2012 года.</Paragraph>
             </AboutContentItem>
         </AboutContentContainer>
-        <Portrait portrait={`url(${images.photo_07})`}></Portrait>
+        <Portrait portrait={`url(${images.about_photo})`}></Portrait>
     </About>
      </Page>
   );
