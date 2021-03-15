@@ -6,7 +6,7 @@ const HeroContentContainer = styled.div`
     margin-left: 41px;
     padding-top: 162px; 
     font-family: Merriweather;
-  `;
+`;
 
 <HeroContentContainer></ HeroContentContainer>
 

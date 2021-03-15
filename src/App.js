@@ -95,6 +95,7 @@ function App() {
         </AboutContentContainer>
         <Portrait portrait={`url(${images.about_photo})`}></Portrait>
     </About>
+          <Container> </>
      </Page>
   );
 }
