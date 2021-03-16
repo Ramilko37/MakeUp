@@ -19,6 +19,8 @@ import brand_06 from '../images/grid_brands/brand_06.png';
 import brand_07 from '../images/grid_brands/brand_07.png';
 import photo_avatar from '../images/avatar/photo_avatar.png';
 import ellipse from '../images/avatar/ellipse.png';
+import arrow from '../images/arrow.png';
+import cosmetics from '../images/cosmetics.png';
 
 
 
@@ -44,6 +46,8 @@ const images = {
     brand_07,
     photo_avatar,
     ellipse,
+    arrow,
+    cosmetics,
 };
 
 export default images;

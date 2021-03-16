@@ -28,7 +28,6 @@ import {PricesSubtitle} from "./Components/Subtitle";
 import {PricesParagraph, SmallParagraph} from "./Components/Paragraph";
 import images from "./utils/images";
 
-
 function App() {
   return (
       <Page>
@@ -139,10 +138,25 @@ function App() {
           <Container flexDirection='column' background='#F7F1F4'>
               <Title margin='56px 0 0 64px'>Отзывы моих клиентов</Title>
               <FlexBox margin='174px auto' justify-content='center' flexDirection='column' width='648px' background='#FFFFFF'>
+
                     <PhotoAvatar photo={`url(${images.photo_avatar})`}></PhotoAvatar>
                     <Subtitle margin='24px auto 16px'>@avadakedavra</Subtitle>
                     <CoursiveParagraph>Так неожиданно и приятно все было сделано, мне очень понравилось,
                         всем рекомендую буду пользоваться еще раз.</CoursiveParagraph>
+              </FlexBox>
+          </Container>
+          <Container>
+              <Title>Нормы гигиены по СанПиН</Title>
+              <FlexBox>
+                  <Photo background-image='${}'></Photo>
+                  <Paragraph>Во-первых, всегда использую несколько комплектов кистей,
+                      в случае необходимости их замены.</Paragraph>
+                  <Paragraph>Во-вторых, для стерилизации кистей и других инструментов использую лучший дезинфектор
+                      - Esti
+                      (в составе на первом месте спирт)</Paragraph>
+                  <Paragraph>В-третьих, ехать к клиенту с грязными кистями,
+                      в первую очередь не профессионально и испортит мне репутацию,
+                      а я ценю каждого своего клиента.</Paragraph>
               </FlexBox>
           </Container>
      </Page>
