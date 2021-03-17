@@ -17,7 +17,7 @@ import {Subtitle} from "./Components/Subtitle";
 import {CoursiveParagraph, Paragraph} from "./Components/Paragraph";
 import Portfolio from "./Components/Portfolio";
 import {Grid, GridBrands} from "./Components/Grid";
-import {Photo, PhotoBrands, PhotoAvatar} from "./Components/Photo";
+import {Photo, PhotoBrands, PhotoAvatar, PhotoCosmetics} from "./Components/Photo";
 import About from "./Components/About";
 import AboutContentContainer from "./Components/AboutContentContainer";
 import AboutContentItem from "./Components/AboutContentItem";
@@ -26,6 +26,8 @@ import Container from "./Components/Container";
 import FlexBox from "./Components/FlexBox";
 import {PricesSubtitle} from "./Components/Subtitle";
 import {PricesParagraph, SmallParagraph} from "./Components/Paragraph";
+import Listed from "./Components/List";
+
 import images from "./utils/images";
 
 function App() {
@@ -145,18 +147,21 @@ function App() {
                         всем рекомендую буду пользоваться еще раз.</CoursiveParagraph>
               </FlexBox>
           </Container>
-          <Container>
-              <Title>Нормы гигиены по СанПиН</Title>
+          <Container flexDirection='column'>
+              <Title margin='120px 0 22px 64px'>Нормы гигиены по СанПиН</Title>
               <FlexBox>
-                  <Photo background-image='${}'></Photo>
-                  <Paragraph>Во-первых, всегда использую несколько комплектов кистей,
-                      в случае необходимости их замены.</Paragraph>
-                  <Paragraph>Во-вторых, для стерилизации кистей и других инструментов использую лучший дезинфектор
-                      - Esti
-                      (в составе на первом месте спирт)</Paragraph>
-                  <Paragraph>В-третьих, ехать к клиенту с грязными кистями,
-                      в первую очередь не профессионально и испортит мне репутацию,
-                      а я ценю каждого своего клиента.</Paragraph>
+                  <PhotoCosmetics></PhotoCosmetics>
+                  <Listed />
+                  {/*<List>*/}
+                  {/*    <ListItem>Во-первых, всегда использую несколько комплектов кистей,*/}
+                  {/*    в случае необходимости их замены.</ListItem>*/}
+                  {/*    <ListItem>Во-вторых, для стерилизации кистей и других инструментов использую лучший дезинфектор*/}
+                  {/*        - Esti*/}
+                  {/*        (в составе на первом месте спирт)</ListItem>*/}
+                  {/*    <ListItem>В-третьих, ехать к клиенту с грязными кистями,*/}
+                  {/*        в первую очередь не профессионально и испортит мне репутацию,*/}
+                  {/*        а я ценю каждого своего клиента.</ListItem>*/}
+                  {/*</List>*/}
               </FlexBox>
           </Container>
      </Page>

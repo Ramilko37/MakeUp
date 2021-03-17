@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, {css} from 'styled-components';
+import images from "../utils/images";
 
 const Photo = styled.div`
     background-repeat: no-repeat;
@@ -20,10 +21,20 @@ const PhotoAvatar = styled(Photo)`
   border: 1px solid red;
 `;
 
+const PhotoCosmetics = styled(Photo)`
+  display: flex;
+  width: 620px;
+  height: 372px;
+  background-image: url(${images.cosmetics});
+  margin-left: 14px;
+`;
+
 <Photo></Photo>
 
 export {Photo,
         PhotoBrands,
         PhotoAvatar,
+        PhotoCosmetics
+
 };
 
