@@ -26,7 +26,7 @@ const PhotoCosmetics = styled(Photo)`
   width: 620px;
   height: 372px;
   background-image: url(${images.cosmetics});
-  margin-left: 14px;
+  margin: 0 0 162px 14px;
 `;
 
 <Photo></Photo>

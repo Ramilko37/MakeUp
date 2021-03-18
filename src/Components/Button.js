@@ -22,14 +22,17 @@ const Button = styled.button`
 
 const ButtonTelegram = styled(Button)`
   background-image: url(${images.telegram});
+  margin: ${props => props.margin || ''};
 `;
 
 const ButtonInstagram = styled(Button)`
   background-image: url(${images.instagram});
+  margin: ${props => props.margin || ''};
 `;
 
 const ButtonWhatsapp = styled(Button)`
   background-image: url(${images.whatsapp});
+  margin: ${props => props.margin || ''};
 `;
 
 const ButtonPhone = styled(Button)`
@@ -45,6 +48,15 @@ const ButtonCallMe = styled(Button)`
   color: #FFFFFF;
 `;
 
+const ButtonContact = styled(Button)`
+  width: 171px;
+  height: 57px;
+  border: 2px solid #CBB387;
+  box-sizing: border-box;
+  color: #CBB387;
+  margin: 6px 0 0 0;
+`;
+
 <Button>
 </Button>
 
@@ -53,5 +65,6 @@ export {Button,
     ButtonInstagram,
     ButtonWhatsapp,
     ButtonPhone,
-    ButtonCallMe
+    ButtonCallMe,
+    ButtonContact,
 };

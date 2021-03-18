@@ -54,10 +54,22 @@ const CoursiveParagraph = styled(Paragraph)`
         color: #6D5F67;
 `;
 
+const ContactsParagraph = styled(CoursiveParagraph)`
+        font-style: normal;
+        width: fit-content;
+        margin: 0 0 16px 0;
+`;
+
+const FooterParagraph = styled(ContactsParagraph)`
+        margin-bottom: 8px;
+        color: #4C4248;
+`;
 <Paragraph></Paragraph>
 
 export {Paragraph,
         PricesParagraph,
         SmallParagraph,
         CoursiveParagraph,
+        ContactsParagraph,
+        FooterParagraph,
 };

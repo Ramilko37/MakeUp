@@ -4,6 +4,7 @@ import styled, {css} from 'styled-components'
 const Container = styled.div`
     display: flex;
     width: 1440px;
+    border: 1px solid red;
     background: ${props => props.background || ''};
     flex-direction: ${props => props.flexDirection || ''};
     padding: ${props => props.padding || ''};

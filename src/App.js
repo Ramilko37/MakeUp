@@ -8,13 +8,19 @@ import {
     ButtonInstagram,
     ButtonWhatsapp,
     ButtonPhone,
-    ButtonCallMe
+    ButtonCallMe,
+    ButtonContact,
 } from "./Components/Button";
 import Hero from "./Components/Hero";
 import HeroContentContainer from "./Components/HeroContentContainer";
 import Title from "./Components/Title";
 import {Subtitle} from "./Components/Subtitle";
-import {CoursiveParagraph, Paragraph} from "./Components/Paragraph";
+import {CoursiveParagraph,
+        Paragraph,
+        ContactsParagraph,
+        PricesParagraph,
+        SmallParagraph,
+        FooterParagraph} from "./Components/Paragraph";
 import Portfolio from "./Components/Portfolio";
 import {Grid, GridBrands} from "./Components/Grid";
 import {Photo, PhotoBrands, PhotoAvatar, PhotoCosmetics} from "./Components/Photo";
@@ -25,8 +31,8 @@ import Portrait from "./Components/Portrait";
 import Container from "./Components/Container";
 import FlexBox from "./Components/FlexBox";
 import {PricesSubtitle} from "./Components/Subtitle";
-import {PricesParagraph, SmallParagraph} from "./Components/Paragraph";
 import Listed from "./Components/List";
+import Footer from "./Components/Footer";
 
 import images from "./utils/images";
 
@@ -164,6 +170,27 @@ function App() {
                   {/*</List>*/}
               </FlexBox>
           </Container>
+          <Container>
+              <FlexBox flexDirection='column' margin='142px 0 198px 175px' width='fit-content'>
+                  <Title margin='0 0 16px 0'>Людмила Бабакина</Title>
+                  <ContactsParagraph>Свяжитесь со мной, чтобы проконсультироваться о вашем образе и забронировать дату встречи</ContactsParagraph>
+                  <ContactsParagraph>e-mail: makeup@ludmilababakina.ru</ContactsParagraph>
+                  <ContactsParagraph>Телефон в Москве: +7(926)422 86 80</ContactsParagraph>
+                  <ButtonContact>Связаться</ButtonContact>
+              </FlexBox>
+          </Container>
+          <Footer >
+              <FlexBox flexDirection='column'>
+                  <FooterParagraph>Людмила Бабакина.  2021</FooterParagraph>
+                  <FooterParagraph>Профессиональный визажист с выездом на дом в Москве и Московской Области</FooterParagraph>
+                  <FlexBox flexDirection='row'>
+                      <FooterParagraph>Написать мне </FooterParagraph>
+                      <ButtonTelegram margin='0 9px'></ButtonTelegram>
+                      <ButtonInstagram margin='0 9px'></ButtonInstagram>
+                      <ButtonWhatsapp margin='0 9px'></ButtonWhatsapp>
+                  </FlexBox>
+              </FlexBox>
+          </Footer>
      </Page>
   );
 }

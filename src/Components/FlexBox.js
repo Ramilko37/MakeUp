@@ -13,6 +13,7 @@ const FlexBox = styled.div`
     justify-content: ${props => props.justifyContent || ''};
     z-index: 100;
     position: relative;
+    border: 1px solid red;
 }
 `;
 
