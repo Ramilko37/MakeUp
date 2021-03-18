@@ -5,6 +5,7 @@ const Portfolio = styled.div`
     display: flex;
     flex-direction: column;
     height: fit-content;
+    margin-bottom: 64px ;
     `;
 
 <Portfolio></Portfolio>
