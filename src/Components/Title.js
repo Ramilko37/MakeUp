@@ -13,11 +13,14 @@ const Title = styled.h3`
   letter-spacing: 0.01em;
   /* text/headings */
   color: #4C4248;
-  width: ${props => props.width || '663px'};
+  width: ${props => props.width || ''};
+  height: ${props => props.height || ''};
   margin: ${props => props.margin || ''};
-  text-align: ${props => props.textalignMargin || ''};;
+  text-align: ${props => props.textalignMargin || ''};
 `;
 
 <Title> </Title>
+
+
 
 export default Title;

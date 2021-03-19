@@ -21,6 +21,7 @@ import photo_avatar from '../images/avatar/photo_avatar.png';
 import ellipse from '../images/avatar/ellipse.png';
 import arrow from '../images/arrow.png';
 import cosmetics from '../images/cosmetics.png';
+import footer_photo from '../images/FooterPhoto.png';
 
 
 
@@ -48,6 +49,7 @@ const images = {
     ellipse,
     arrow,
     cosmetics,
+    footer_photo,
 };
 
 export default images;

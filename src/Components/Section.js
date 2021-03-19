@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, {css} from 'styled-components'
 
-const Container = styled.div`
+const Section = styled.div`
     display: flex;
     width: 1440px;
     border: 1px solid red;
@@ -9,8 +9,9 @@ const Container = styled.div`
     flex-direction: ${props => props.flexDirection || ''};
     padding: ${props => props.padding || ''};
     width: ${props => props.width || ''};
+    margin: ${props => props.margin || ''};
     `;
 
-<Container></Container>
+<Section></Section>
 
-export default Container;
+export default Section;

@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, {css} from 'styled-components';
 import images from "../utils/images";
+import * as url from "url";
 
 const Photo = styled.div`
     background-repeat: no-repeat;
@@ -29,12 +30,30 @@ const PhotoCosmetics = styled(Photo)`
   margin: 0 0 162px 14px;
 `;
 
+const WhyMePhoto = styled(Photo)`
+  display: inline;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(${images.about_photo});
+  width: 580px;
+  height: 730px;
+`;
+
+const FooterPhoto = styled(Photo)`
+    position: absolute;
+    width: 596px;
+    height: 824px;
+    background-image: url(${images.footer_photo});
+  
+`;
+
 <Photo></Photo>
 
 export {Photo,
         PhotoBrands,
         PhotoAvatar,
-        PhotoCosmetics
-
+        PhotoCosmetics,
+        FooterPhoto,
+        WhyMePhoto,
 };
 
