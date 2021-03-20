@@ -1,7 +1,6 @@
 import React from 'react';
 import styled, {css} from 'styled-components';
 import images from "../utils/images";
-import * as url from "url";
 
 const Photo = styled.div`
     background-repeat: no-repeat;
@@ -21,6 +20,7 @@ const PhotoAvatar = styled(Photo)`
   margin: 40px auto 0;
   border: 1px solid red;
 `;
+
 
 const PhotoCosmetics = styled(Photo)`
   display: flex;

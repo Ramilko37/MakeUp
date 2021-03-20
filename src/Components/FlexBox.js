@@ -6,14 +6,14 @@ const FlexBox = styled.div`
     flex-direction: ${props => props.flexDirection || '' };;
     width: ${props => props.width || '' };
     height: ${props => props.height || '' };
-    margin: ${props => props.margin || '' };
-    padding: ${props => props.padding || '' };
+    margin: ${({margin}) => margin || '' };
+    padding: ${({padding}) => padding || '' };
     flex-wrap: ${props => props.wrap || '' };;
-    background: ${props => props.background || ''};
-    justify-content: ${props => props.justifyContent || ''};
+    background: ${({background}) => background};
+    justify-content: ${props => props.justifyContent};
+    align-content: ${props => props.alignContent};
     z-index: 100;
     position: relative;
-    border: 1px solid red;
 }
 `;
 
@@ -31,5 +31,6 @@ const AboutFlexBox = styled(FlexBox)`
 `;
 
 <FlexBox></FlexBox>
+
 
 export {FlexBox, HeaderFlexbox, AboutFlexBox};

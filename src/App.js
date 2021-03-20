@@ -8,7 +8,7 @@ import {
     ButtonWhatsapp,
     ButtonPhone,
     ButtonCallMe,
-    ButtonContact,
+    ButtonContact, Button,
 } from "./Components/Button";
 import Title from "./Components/Title";
 import {Subtitle} from "./Components/Subtitle";
@@ -25,27 +25,35 @@ import {FlexBox, HeaderFlexbox, AboutFlexBox} from "./Components/FlexBox";
 import {PricesSubtitle} from "./Components/Subtitle";
 import Listed from "./Components/List";
 import Footer from "./Components/Footer";
+import PhotoModal from './Components/PhotoModal';
 import images from "./utils/images";
+import showModal from './Components/ShowModal';
+
 
 function App() {
+    const [isButtonClicked, setIsButtonClicked] = React.useState(false);
+    const click = () => setIsButtonClicked(!isButtonClicked);
+
+
+
   return (
       <Page>
        <Header>
     <Logo>
         Людмила Бабакина
     </Logo>
-           <HeaderFlexbox>
-               <ButtonTelegram></ButtonTelegram>
+           <FlexBox height='fit-content' alignContent='center'>
+               <ButtonTelegram onClick={click}></ButtonTelegram>
                <ButtonInstagram></ButtonInstagram>
                <ButtonWhatsapp></ButtonWhatsapp>
                <ButtonPhone>+7(926)422 86 80</ButtonPhone>
-               <ButtonCallMe>Написать в WhatsApp</ButtonCallMe>
-           </HeaderFlexbox>
+               <ButtonCallMe href="https://api.whatsapp.com/send?phone=79857516594" target="_blank" rel="nofollow noopener noreferrer">Написать в WhatsApps</ButtonCallMe>
+           </FlexBox>
        </Header>
     <Section>
         <img src={images.hero_image} alt=""/>
         <FlexBox flexDirection='column' justifyContent='center' width='fit-content'>
-            <Title margin='0 0 24px' width='663px'>
+            <Title margin='0 0 24px' width='663px' color='red'>
                 Гарантированно красивый образ для мероприятия или фотосессии
             </Title>
             <Paragraph paragraphMargin='0 0 60px'>
@@ -173,8 +181,11 @@ function App() {
                       <ButtonWhatsapp margin='0 9px'></ButtonWhatsapp>
                   </FlexBox>
               </FlexBox>
-              <FooterPhoto></FooterPhoto>
+
           </Footer>
+          <PhotoModal isOpen={isButtonClicked}>
+              <PhotoCosmetics></PhotoCosmetics>
+          </PhotoModal>
      </Page>
   );
 }

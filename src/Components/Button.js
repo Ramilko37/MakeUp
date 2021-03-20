@@ -1,6 +1,5 @@
 import React from 'react';
 import styled, {css} from 'styled-components'
-import { render, screen } from '@testing-library/react';
 import images from "../utils/images";
 
 
