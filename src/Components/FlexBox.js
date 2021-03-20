@@ -22,7 +22,14 @@ const HeaderFlexbox = styled(FlexBox)`
   align-content: center;
 `;
 
+const AboutFlexBox = styled(FlexBox)`
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 350px;
+  margin: ${props => props.margin ? "" : "0 16px 64px 0"};
+`;
 
 <FlexBox></FlexBox>
 
-export {FlexBox, HeaderFlexbox};
+export {FlexBox, HeaderFlexbox, AboutFlexBox};

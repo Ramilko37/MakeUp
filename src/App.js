@@ -20,9 +20,8 @@ import {CoursiveParagraph,
         FooterParagraph} from "./Components/Paragraph";
 import {Grid, GridBrands} from "./Components/Grid";
 import {Photo, PhotoBrands, PhotoAvatar, PhotoCosmetics, FooterPhoto, WhyMePhoto} from "./Components/Photo";
-import AboutContentItem from "./Components/AboutContentItem";
 import Section from "./Components/Section";
-import {FlexBox, HeaderFlexbox} from "./Components/FlexBox";
+import {FlexBox, HeaderFlexbox, AboutFlexBox} from "./Components/FlexBox";
 import {PricesSubtitle} from "./Components/Subtitle";
 import Listed from "./Components/List";
 import Footer from "./Components/Footer";
@@ -71,32 +70,32 @@ function App() {
         <FlexBox flexDirection='column'>
             <Title margin='0 0 64px 0'>Почему я</Title>
             <FlexBox flexDirection='row' wrap='wrap' width='918px'>
-                <AboutContentItem itemMargin='16px'>
+                <AboutFlexBox margin>
                     <Subtitle>Индивидуальный подход</Subtitle>
                     <Paragraph paragraphWidth='317px'>Прическа и макияж будут красивыми, стойкими
                         и современными, а также комфортными именно для вас</Paragraph>
-                </AboutContentItem>
-                <AboutContentItem>
+                </AboutFlexBox>
+                <AboutFlexBox>
                     <Subtitle>Профессиональная косметика</Subtitle>
                     <Paragraph paragraphWidth='317px'>Профессиональные косметика и стайлинги позволяют создать
                         стойкий образ без вреда для вашей кожи и волос</Paragraph>
-                </AboutContentItem >
-                <AboutContentItem itemMargin='16px'>
+                </AboutFlexBox >
+                <AboutFlexBox margin>
                     <Subtitle>По договору</Subtitle>
                     <Paragraph paragraphWidth='317px'>Заключение договора на оказание услуг (по желанию)</Paragraph>
-                </AboutContentItem>
-                <AboutContentItem>
+                </AboutFlexBox>
+                <AboutFlexBox>
                     <Subtitle>Ранний выезд</Subtitle>
                     <Paragraph paragraphWidth='317px'>Приеду к вам на дом, в офис или на торжество 24/7, если дата не занята.</Paragraph>
-                </AboutContentItem>
-                <AboutContentItem itemMargin='16px'>
+                </AboutFlexBox>
+                <AboutFlexBox margin>
                     <Subtitle>Гигиена</Subtitle>
                     <Paragraph paragraphWidth='317px'>Тщательная гигиена и дезинфекция рабочих инструментов.</Paragraph>
-                </AboutContentItem>
-                <AboutContentItem>
+                </AboutFlexBox>
+                <AboutFlexBox>
                     <Subtitle>Опыт</Subtitle>
                     <Paragraph paragraphWidth='317px'>Дипломированный визажист. В профессии с 2012 года.</Paragraph>
-                </AboutContentItem>
+                </AboutFlexBox>
             </FlexBox>
         </FlexBox>
         <WhyMePhoto></WhyMePhoto>
