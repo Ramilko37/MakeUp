@@ -1,9 +1,7 @@
 import React from 'react';
 import styled, {css} from 'styled-components'
-import { render, screen } from '@testing-library/react';
-import images from '../utils/images';
 
-const Title = styled.h3`
+const StyledTitle = styled.h3`
   font-family: Playfair Display;
   font-style: normal;
   font-weight: normal;
@@ -12,15 +10,16 @@ const Title = styled.h3`
   /* or 51px */
   letter-spacing: 0.01em;
   /* text/headings */
-  color: #4C4248;
-  width: ${props => props.width || ''};
-  height: ${props => props.height || ''};
-  margin: ${props => props.margin || ''};
-  text-align: ${props => props.textalignMargin || ''};
+  color: ${props => props.color};
+  width: ${props => props.width};
+  height: ${props => props.height};
+  margin: ${props => props.margin};
+  text-align: ${props => props.textalignMargin };
 `;
 
-<Title> </Title>
-
+const Title = (props) => {
+    return <StyledTitle id='title' {...props}/>
+}
 
 
 export default Title;

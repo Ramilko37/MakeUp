@@ -1,7 +1,6 @@
 import React from 'react';
 import styled, {css} from 'styled-components'
-import { render, screen } from '@testing-library/react';
-import images from "../utils/images";
+import images from "../../utils/images";
 
 
 const Button = styled.button`
@@ -21,7 +20,7 @@ const Button = styled.button`
 `;
 
 const ButtonTelegram = styled(Button)`
-  background-image: url(${images.telegram});
+  background: url(${(images.telegram)});
   margin: ${props => props.margin || ''};
 `;
 
