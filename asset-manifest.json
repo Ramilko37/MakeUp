@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/MakeUp/static/css/main.1b46e399.chunk.css",
+    "main.js": "/MakeUp/static/js/main.0447d7a3.chunk.js",
+    "main.js.map": "/MakeUp/static/js/main.0447d7a3.chunk.js.map",
+    "runtime-main.js": "/MakeUp/static/js/runtime-main.f6e495c1.js",
+    "runtime-main.js.map": "/MakeUp/static/js/runtime-main.f6e495c1.js.map",
+    "static/js/2.b27f5e5f.chunk.js": "/MakeUp/static/js/2.b27f5e5f.chunk.js",
+    "static/js/2.b27f5e5f.chunk.js.map": "/MakeUp/static/js/2.b27f5e5f.chunk.js.map",
+    "static/js/3.3b77fa4f.chunk.js": "/MakeUp/static/js/3.3b77fa4f.chunk.js",
+    "static/js/3.3b77fa4f.chunk.js.map": "/MakeUp/static/js/3.3b77fa4f.chunk.js.map",
+    "index.html": "/MakeUp/index.html",
+    "static/css/main.1b46e399.chunk.css.map": "/MakeUp/static/css/main.1b46e399.chunk.css.map",
+    "static/js/2.b27f5e5f.chunk.js.LICENSE.txt": "/MakeUp/static/js/2.b27f5e5f.chunk.js.LICENSE.txt",
+    "static/media/FooterPhoto.eeae1024.png": "/MakeUp/static/media/FooterPhoto.eeae1024.png",
+    "static/media/index.css": "/MakeUp/static/media/Merriweather-Regular.e0e549c8.ttf",
+    "static/media/about_photo.1aafc46e.png": "/MakeUp/static/media/about_photo.1aafc46e.png",
+    "static/media/brand_01.40a1f654.png": "/MakeUp/static/media/brand_01.40a1f654.png",
+    "static/media/brand_03.44c9357a.png": "/MakeUp/static/media/brand_03.44c9357a.png",
+    "static/media/brand_06.ba18c56c.png": "/MakeUp/static/media/brand_06.ba18c56c.png",
+    "static/media/cosmetics.c138757f.png": "/MakeUp/static/media/cosmetics.c138757f.png",
+    "static/media/hero_image.30baa70c.png": "/MakeUp/static/media/hero_image.30baa70c.png",
+    "static/media/instagram.e4a04aa8.svg": "/MakeUp/static/media/instagram.e4a04aa8.svg",
+    "static/media/photo_01.d5529dbe.jpg": "/MakeUp/static/media/photo_01.d5529dbe.jpg",
+    "static/media/photo_02.1f58bed2.jpg": "/MakeUp/static/media/photo_02.1f58bed2.jpg",
+    "static/media/photo_03.5372140c.jpg": "/MakeUp/static/media/photo_03.5372140c.jpg",
+    "static/media/photo_04.07dd90c2.jpg": "/MakeUp/static/media/photo_04.07dd90c2.jpg",
+    "static/media/photo_05.b317bc47.jpg": "/MakeUp/static/media/photo_05.b317bc47.jpg",
+    "static/media/photo_06.f2b512b2.jpg": "/MakeUp/static/media/photo_06.f2b512b2.jpg",
+    "static/media/photo_07.e8ee06e8.jpg": "/MakeUp/static/media/photo_07.e8ee06e8.jpg",
+    "static/media/photo_avatar.e3ad8c87.png": "/MakeUp/static/media/photo_avatar.e3ad8c87.png",
+    "static/media/telegram.54a32047.svg": "/MakeUp/static/media/telegram.54a32047.svg",
+    "static/media/whatsapp.5f5e63df.svg": "/MakeUp/static/media/whatsapp.5f5e63df.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6e495c1.js",
+    "static/js/2.b27f5e5f.chunk.js",
+    "static/css/main.1b46e399.chunk.css",
+    "static/js/main.0447d7a3.chunk.js"
+  ]
+}
