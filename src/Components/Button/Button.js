@@ -39,7 +39,7 @@ const ButtonPhone = styled(Button)`
   color: #6D5F67;
 `;
 
-const ButtonCallMe = styled(Button)`
+const ButtonCallme = styled(Button)`
   width: 287px;
   height: 73px;
   background-color: #CBB387;
@@ -64,6 +64,6 @@ export {Button,
     ButtonInstagram,
     ButtonWhatsapp,
     ButtonPhone,
-    ButtonCallMe,
+    ButtonCallme,
     ButtonContact,
 };

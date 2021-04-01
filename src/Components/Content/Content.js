@@ -9,69 +9,18 @@ import {Grid, GridBrands} from "../Grid";
 import {Photo, PhotoAvatar, PhotoBrands, PhotoCosmetics, WhyMePhoto} from "../Photo";
 import {PricesSubtitle, Subtitle} from "../Subtitle";
 import Listed from "../List";
+import Hero from "../Hero/Hero";
+import Gallery from "../Gallery/Gallery";
+import WhyMe from "../WhyMe/WhyMe";
 
 
 const Content = () => {
     return (
         <>
-            <Section>
-                <img src={images.hero_image} alt=""/>
-                <FlexBox flexDirection='column' justifyContent='center' width='fit-content'>
-                    <Title margin='0 0 24px' width='663px' color='red'>
-                        Гарантированно красивый образ для мероприятия или фотосессии
-                    </Title>
-                    <Paragraph paragraphMargin='0 0 60px'>
-                        Профессиональные макияж и укладка с выездом на дом в Москве и МО
-                    </Paragraph>
-                    <ButtonCallMe>Написать в WhatsApp</ButtonCallMe>
-                </FlexBox>
-            </Section>
-            <Section flexDirection='column' margin='0 0 64px 0'>
-                <Title margin='0 0 20px 64px' width='1312px' textalignMargin='start'>Примеры моих работ</Title>
-                <Grid>
-                    <Photo photo={`url(${images.photo_05})`} column='1/6' row='1/4'></Photo>
-                    <Photo photo={`url(${images.photo_02})`} column='6/9' row='1/4'></Photo>
-                    <Photo photo={`url(${images.photo_03})`} column='9/-1' row='1/3'></Photo>
-                    <Photo photo={`url(${images.photo_04})`} column='1/4' row='4/6'></Photo>
-                    <Photo photo={`url(${images.photo_01})`} column='4/7' row='4/6'></Photo>
-                    <Photo photo={`url(${images.photo_04})`} column='7/9' row='4/6'></Photo>
-                    <Photo photo={`url(${images.photo_07})`} column='9/13' row='3/6'></Photo>
-                </Grid>
-            </Section>
-            <Section>
-                <FlexBox flexDirection='column'>
-                    <Title margin='0 0 64px 0'>Почему я</Title>
-                    <FlexBox flexDirection='row' wrap='wrap' width='918px'>
-                        <AboutFlexBox margin>
-                            <Subtitle>Индивидуальный подход</Subtitle>
-                            <Paragraph paragraphWidth='317px'>Прическа и макияж будут красивыми, стойкими
-                                и современными, а также комфортными именно для вас</Paragraph>
-                        </AboutFlexBox>
-                        <AboutFlexBox>
-                            <Subtitle>Профессиональная косметика</Subtitle>
-                            <Paragraph paragraphWidth='317px'>Профессиональные косметика и стайлинги позволяют создать
-                                стойкий образ без вреда для вашей кожи и волос</Paragraph>
-                        </AboutFlexBox >
-                        <AboutFlexBox margin>
-                            <Subtitle>По договору</Subtitle>
-                            <Paragraph paragraphWidth='317px'>Заключение договора на оказание услуг (по желанию)</Paragraph>
-                        </AboutFlexBox>
-                        <AboutFlexBox>
-                            <Subtitle>Ранний выезд</Subtitle>
-                            <Paragraph paragraphWidth='317px'>Приеду к вам на дом, в офис или на торжество 24/7, если дата не занята.</Paragraph>
-                        </AboutFlexBox>
-                        <AboutFlexBox margin>
-                            <Subtitle>Гигиена</Subtitle>
-                            <Paragraph paragraphWidth='317px'>Тщательная гигиена и дезинфекция рабочих инструментов.</Paragraph>
-                        </AboutFlexBox>
-                        <AboutFlexBox>
-                            <Subtitle>Опыт</Subtitle>
-                            <Paragraph paragraphWidth='317px'>Дипломированный визажист. В профессии с 2012 года.</Paragraph>
-                        </AboutFlexBox>
-                    </FlexBox>
-                </FlexBox>
-                <WhyMePhoto></WhyMePhoto>
-            </Section >
+           <Hero/>
+           <Gallery/>
+           <WhyMe/>
+
             <Section background='rgba(247,241,244,.8)' flexDirection='column'>//поискать решение сделать норм ширину
                 <Title margin='56px 0 48px 64px'>Стоимость</Title>
                 <FlexBox flexDirection='row' margin='0 auto'>

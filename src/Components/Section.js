@@ -2,8 +2,8 @@ import React from 'react';
 import styled, {css} from 'styled-components'
 
 const Section = styled.div`
-    display: flex;
-    width: 1440px;
+    
+    //width: 1440px;
    
     background: ${props => props.background || ''};
     flex-direction: ${props => props.flexDirection || ''};
@@ -11,6 +11,9 @@ const Section = styled.div`
     width: ${props => props.width || ''};
     margin: ${props => props.margin || ''};
     `;
+
+//
+
 
 <Section></Section>
 
