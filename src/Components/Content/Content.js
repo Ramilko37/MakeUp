@@ -13,6 +13,7 @@ import Hero from "../Hero/Hero";
 import Gallery from "../Gallery/Gallery";
 import WhyMe from "../WhyMe/WhyMe";
 import Prices from "../../Prices/Prices";
+import Brands from "../Brands/Brands";
 
 
 const Content = () => {
@@ -22,23 +23,24 @@ const Content = () => {
            <Gallery/>
            <WhyMe/>
            <Prices/>
+           <Brands/>
 
 
-            <Section id='prof_kosmetika' flexDirection='column' padding='120px 64px' width='1320px'>
-                <Title margin='0 0 48px 0' width='962px'>Работаю только с профессиональной косметикой</Title>
-                <Paragraph paragraphWidth='656px' paragraphMargin='0 0 112px 0'>В работе с клиентами важно использовать профессиональную, гиппоаллеренную косметику.
-                    И я выбираю бренды: Clarins, Clinique, Dewal, Estee Lauder, Inglot, Lancome, Loreal, MAC, Make Up For Ever,
-                    NYX, PAESE, Shiseido, Too Faced, Urban Decay</Paragraph>
-                <GridBrands>
-                    <PhotoBrands photo={`url(${images.brand_01})`} column='1/3' row='1/1'></PhotoBrands>
-                    <PhotoBrands photo={`url(${images.brand_02})`} column='2/4' row='2/2'></PhotoBrands>
-                    <PhotoBrands photo={`url(${images.brand_03})`} column='4/7' row='1/2'></PhotoBrands>
-                    <PhotoBrands photo={`url(${images.brand_04})`} column='5/7' row='2/2'></PhotoBrands>
-                    <PhotoBrands photo={`url(${images.brand_05})`} column='7/9' row='1/2'></PhotoBrands>
-                    <PhotoBrands photo={`url(${images.brand_06})`} column='8/10' row='2/2'></PhotoBrands>
-                    <PhotoBrands photo={`url(${images.brand_07})`} column='10/12' row='1/2'></PhotoBrands>
-                </GridBrands>
-            </Section>
+            {/*<Section id='prof_kosmetika' flexDirection='column' padding='120px 64px' width='1320px'>*/}
+            {/*    <Title margin='0 0 48px 0' width='962px'>Работаю только с профессиональной косметикой</Title>*/}
+            {/*    <Paragraph paragraphWidth='656px' paragraphMargin='0 0 112px 0'>В работе с клиентами важно использовать профессиональную, гиппоаллеренную косметику.*/}
+            {/*        И я выбираю бренды: Clarins, Clinique, Dewal, Estee Lauder, Inglot, Lancome, Loreal, MAC, Make Up For Ever,*/}
+            {/*        NYX, PAESE, Shiseido, Too Faced, Urban Decay</Paragraph>*/}
+            {/*    <GridBrands>*/}
+            {/*        <PhotoBrands photo={`url(${images.brand_01})`} column='1/3' row='1/1'></PhotoBrands>*/}
+            {/*        <PhotoBrands photo={`url(${images.brand_02})`} column='2/4' row='2/2'></PhotoBrands>*/}
+            {/*        <PhotoBrands photo={`url(${images.brand_03})`} column='4/7' row='1/2'></PhotoBrands>*/}
+            {/*        <PhotoBrands photo={`url(${images.brand_04})`} column='5/7' row='2/2'></PhotoBrands>*/}
+            {/*        <PhotoBrands photo={`url(${images.brand_05})`} column='7/9' row='1/2'></PhotoBrands>*/}
+            {/*        <PhotoBrands photo={`url(${images.brand_06})`} column='8/10' row='2/2'></PhotoBrands>*/}
+            {/*        <PhotoBrands photo={`url(${images.brand_07})`} column='10/12' row='1/2'></PhotoBrands>*/}
+            {/*    </GridBrands>*/}
+            {/*</Section>*/}
             <Section flexDirection='column' background='#F7F1F4'>
                 <Title margin='56px 0 0 64px'>Отзывы моих клиентов</Title>
                 <FlexBox margin='174px auto' justify-content='center' flexDirection='column' width='648px' background='#FFFFFF'>

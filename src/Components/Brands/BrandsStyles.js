@@ -1,16 +1,12 @@
 import styled from 'styled-components';
 import React from "react";
+import {Grid} from "../Grid";
 
 export const BrandsContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 120px 64px;
+  padding: 120px 64px 0 64px;
   max-width: 1320px;
-`;
-
-export const BrandsWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
 `;
 
 export const BrandsTitle = styled.h2`
@@ -29,4 +25,13 @@ export const BrandsTitle = styled.h2`
 export const BrandsP = styled.p`
   max-width: 656px;
   margin: 0 0 112px 0;
+`;
+
+export const BrandsGrid = styled.div`
+  display: grid;
+  width: calc(100% - (64px * 2));
+  grid-gap: 16px;
+  margin: 0 auto;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 96px);
 `;

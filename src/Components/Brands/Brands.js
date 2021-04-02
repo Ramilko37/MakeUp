@@ -1,8 +1,8 @@
 import React from 'react';
 
-import {PhotoBrands} from "../Photo";
+import { PhotoBrands } from "../Photo";
 import images from "../../utils/images";
-
+import { BrandsContainer, BrandsTitle, BrandsP, BrandsGrid } from "./BrandsStyles";
 
 const Brands = () => {
     return (
@@ -23,3 +23,5 @@ const Brands = () => {
         </BrandsContainer>
     )
 }
+
+export default Brands;
