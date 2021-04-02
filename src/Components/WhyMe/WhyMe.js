@@ -3,7 +3,6 @@ import {AboutFlexBox, FlexBox} from "../FlexBox";
 import Title from "../Title";
 import {Subtitle} from "../Subtitle";
 import {Paragraph} from "../Paragraph";
-import {WhyMePhoto} from "../Photo";
 import Section from "../Section";
 import { WhyMeContainer,
         WhyMeWrapper,
@@ -11,7 +10,9 @@ import { WhyMeContainer,
         WhyMeContent,
         WhyMeAbout,
         WhyMeParagraph,
-        WhyMeSubtitle} from "./MhyMeStyles";
+        WhyMeSubtitle,
+        WhyMePhoto
+} from "./MhyMeStyles";
 
 
 const WhyMe = () => {

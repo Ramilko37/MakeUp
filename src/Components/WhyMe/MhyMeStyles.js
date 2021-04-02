@@ -1,7 +1,14 @@
 import styled from 'styled-components';
+import images from "../../utils/images";
+
 
 export const WhyMeContainer = styled.div`
   display: flex;
+  padding-left: 64px;
+
+  @media screen and (max-width: 960px) {
+    flex-direction: column;
+  }
 `;
 
 export const WhyMeWrapper = styled.div`
@@ -53,4 +60,17 @@ export const WhyMeParagraph = styled.p`
   line-height: 150%;
   color: #6D5F67;
   max-width: 317px;
+`;
+
+export const WhyMePhoto = styled.div`
+  display: inline;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(${images.about_photo});
+  width: 580px;
+  height: 730px;
+  
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
 `;

@@ -16,11 +16,15 @@ export const PricesWrapper = styled.div`
 export const PricesContent = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 427px;
+  min-width: 472px;
   max-height: 430px;
   margin: 0 16px 173px 0;
   padding: 56px 0 68px 0;
   background: #FFFFFF;
+  
+  @media screen and (max-width: 960px) {
+    min-width: 272px;
+  }
 `;
 
 export const PricesTitle = styled.h2`
