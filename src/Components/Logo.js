@@ -10,7 +10,7 @@ const Logo = styled.h3`
   color: #6D5F67;
   font-size: 20px;
   line-height: 25px;
-  margin: 12px 0 11px 0;
+  margin: 0;
   `;
 
 <Logo>

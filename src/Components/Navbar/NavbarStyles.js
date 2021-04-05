@@ -2,13 +2,13 @@ import React from 'react';
 import styled, {css} from 'styled-components'
 
 export const NavbarContainer = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    //width: 100%;
-    margin: 0 auto;
-    padding: 0 64px;
-    background-color: rgba(247,241,244,.8);
-    box-sizing: border-box;
+  /* max-width: 1280px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 64px;
+  background-color: rgba(247, 241, 244, 0.8);
+  box-sizing: border-box;
 `;
 

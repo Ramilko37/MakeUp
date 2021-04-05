@@ -14,7 +14,6 @@ const FlexBox = styled.div`
     align-content: ${props => props.alignContent};
     z-index: 100;
     position: relative;
-}
 `;
 
 const Flexbox = styled(FlexBox)`

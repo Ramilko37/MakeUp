@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import React from "react";
-import {Grid} from "../Grid";
 
 export const BrandsContainer = styled.div`
   display: flex;

@@ -41,8 +41,8 @@ const Content = () => {
             {/*        <PhotoBrands photo={`url(${images.brand_07})`} column='10/12' row='1/2'></PhotoBrands>*/}
             {/*    </GridBrands>*/}
             {/*</Section>*/}
-            <Section flexDirection='column' background='#F7F1F4'>
-                <Title margin='56px 0 0 64px'>Отзывы моих клиентов</Title>
+            <Section background='#F7F1F4'>
+                <Title margin='56px 0 0 64px'>Отзывыs моих клиентов</Title>
                 <FlexBox margin='174px auto' justify-content='center' flexDirection='column' width='648px' background='#FFFFFF'>
 
                     <PhotoAvatar photo={`url(${images.photo_avatar})`}></PhotoAvatar>
@@ -51,7 +51,7 @@ const Content = () => {
                         всем рекомендую буду пользоваться еще раз.</CoursiveParagraph>
                 </FlexBox>
             </Section>
-            <Section flexDirection='column'>
+            <Section>
                 <Title margin='120px 0 22px 64px'>Нормы гигиены по СанПиН</Title>
                 <FlexBox>
                     <PhotoCosmetics></PhotoCosmetics>
