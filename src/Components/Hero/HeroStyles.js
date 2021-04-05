@@ -14,7 +14,7 @@ export const HeroWrapper = styled.div`
   max-width: 680px;
   flex-direction: column;
   padding-top: 132px;
-  margin-left: 40px;
+  margin-left: 2.77vw;
 `;
 
 export const HeroTitle = styled.h2`
@@ -31,4 +31,11 @@ export const HeroTitle = styled.h2`
 
 export const HeroP = styled.p`
   margin: 0 0 60px;
+`;
+
+export const HeroImg = styled.img`
+width: 36.94vw;
+min-width: 350px;
+object-fit: cover;
+
 `;

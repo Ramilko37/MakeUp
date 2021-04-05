@@ -17,6 +17,7 @@ const Button = styled.button`
   font-size: 20px;
   line-height: 25px;
   border: none;
+  padding: 0;
 `;
 
 const ButtonTelegram = styled(Button)`
