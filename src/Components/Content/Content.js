@@ -1,13 +1,13 @@
 import React from "react";
 import Section from "../Section";
 import images from "../../utils/images";
-import {AboutFlexBox, FlexBox} from "../FlexBox";
+import { FlexBox} from "../FlexBox";
 import Title from "../Title";
-import {ContactsParagraph, CoursiveParagraph, Paragraph, PricesParagraph, SmallParagraph} from "../Paragraph";
-import {ButtonCallMe, ButtonContact} from "../Button/Button";
-import {Grid, GridBrands} from "../Grid";
-import {Photo, PhotoAvatar, PhotoBrands, PhotoCosmetics, WhyMePhoto} from "../Photo";
-import {PricesSubtitle, Subtitle} from "../Subtitle";
+import {ContactsParagraph, CoursiveParagraph,} from "../Paragraph";
+import { ButtonContact} from "../Button/Button";
+
+import {PhotoAvatar,PhotoCosmetics} from "../Photo";
+import {Subtitle} from "../Subtitle";
 import Listed from "../List";
 import Hero from "../Hero/Hero";
 import Gallery from "../Gallery/Gallery";

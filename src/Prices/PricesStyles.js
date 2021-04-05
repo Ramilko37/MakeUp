@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import React from "react";
-
 export const PricesContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -25,11 +23,6 @@ export const PricesItem = styled.div`
   padding: 56px 0 68px 0;
   background: #FFFFFF;
   &:last-of-type {margin-right: 0;}
-  
-  
-  /* @media screen and (max-width: 960px) {
-    min-width: 272px;
-  } */
 `;
 
 export const PricesTitle = styled.h2`

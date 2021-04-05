@@ -1,8 +1,7 @@
-import React from 'react';
-import styled, {css} from 'styled-components'
+
+import styled from 'styled-components'
 
 export const NavbarContainer = styled.div`
-  /* max-width: 1280px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
