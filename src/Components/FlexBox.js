@@ -29,7 +29,14 @@ const AboutFlexBox = styled(FlexBox)`
   margin: ${props => props.margin ? "" : "0 16px 64px 0"};
 `;
 
+const NavbarFlexBox = styled(FlexBox)`
+  
+    @media screen and (max-width: 375px) {
+      display: none;
+    }
+`;
+
 <FlexBox></FlexBox>
 
 
-export {FlexBox, Flexbox, AboutFlexBox};
+export {FlexBox, Flexbox, AboutFlexBox, NavbarFlexBox};

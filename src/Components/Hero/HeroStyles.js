@@ -7,6 +7,10 @@ display: flex;
   justify-content: space-between;
   background-color: rgba(247,241,244,.8);
   /* max-width: 1280px; */
+  @media screen and (max-width: 375px){
+    width: 375px;
+    flex-direction: column;
+  }
 `;
 
 export const HeroWrapper = styled.div`
