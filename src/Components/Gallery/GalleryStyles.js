@@ -4,6 +4,9 @@ export const GalleryContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 0 64px 0;
+  @media screen and (max-width: 375px){
+    width: 375px;
+  }
 `;
 export const GalleryGrid = styled.div`
   display: grid;
@@ -26,4 +29,12 @@ export const GalleryTitle = styled.h2`
   letter-spacing: 0.01em;
   margin: 0 0 20px 64px;
   text-align: start;
+  @media screen and (max-width: 375px){
+    margin: 72px 17px 32px;
+    font-size: 28px;
+    line-height: 135%;
+    
+    color: #4C4248;
+
+  }
 `;

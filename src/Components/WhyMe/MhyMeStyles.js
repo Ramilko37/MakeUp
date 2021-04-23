@@ -8,12 +8,17 @@ export const WhyMeContainer = styled.div`
 
   @media screen and (max-width: 960px) {
     flex-direction: column;
+    padding: 0;
   }
 `;
 
 export const WhyMeWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 375px){
+    border: 1px solid red;
+    width: 375px;
+  }
 `;
 
 export const WhyMeTitle = styled.h2`
@@ -26,6 +31,12 @@ export const WhyMeTitle = styled.h2`
   line-height: 126.6%;
   margin: 0 0 64px 0;
   letter-spacing: 0.01em;
+  @media screen and (max-width: 375px){
+    margin: 72px 0 32px 16px;
+    width: 375px;
+    font-size: 28px;
+    line-height: 135%;
+  }
 `;
 
 export const WhyMeContent = styled.div`
@@ -50,6 +61,13 @@ export const WhyMeSubtitle = styled.h6`
   line-height: 30px;
   margin: 0 0 8px;
   color: #4C4248;
+  @media screen and (max-width: 375px){
+    margin-left: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6D5F67;
+  }
 `;
 
 export const WhyMeParagraph = styled.p`
@@ -60,6 +78,9 @@ export const WhyMeParagraph = styled.p`
   line-height: 150%;
   color: #6D5F67;
   max-width: 317px;
+  @media screen and (max-width: 375px){
+    margin: 0 0 0 16px;
+  }
 `;
 
 export const WhyMePhoto = styled.div`

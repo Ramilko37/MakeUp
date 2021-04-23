@@ -4,7 +4,8 @@ import {HeroContainer,
         HeroWrapper,
         HeroTitle,
         HeroP,
-        HeroImg
+        HeroImg,
+        HeroImgMbl
 } from "./HeroStyles";
 import {ButtonCallme} from '../Button/Button';
 
@@ -12,6 +13,7 @@ const Hero = () => {
     return (
         <HeroContainer>
             <HeroImg src={images.hero_image} />
+            <HeroImgMbl src={images.hero_image}/>
             <HeroWrapper>
                 <HeroTitle>
                     Соберу красивый образ для мероприятий и фотосессий

@@ -12,6 +12,8 @@ export const NavbarContainer = styled.div`
   
   @media screen and (max-width: 375px){
   width: 375px;
+  padding: 0;
+    border: 1px solid red;
 }
 `;
 

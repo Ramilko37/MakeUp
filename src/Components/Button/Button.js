@@ -46,6 +46,9 @@ const ButtonCallme = styled(Button)`
   background-color: #CBB387;
   margin: 0;
   color: #FFFFFF;
+  @media screen and (max-width: 375px){
+    display: none;
+  }
 `;
 
 const ButtonContact = styled(Button)`

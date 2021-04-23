@@ -11,6 +11,11 @@ const Logo = styled.h3`
   font-size: 20px;
   line-height: 25px;
   margin: 0;
+    @media screen and (max-width: 375px){
+      width: 100px;
+      margin: 44px 0 15px 16px;
+    }
+  
   `;
 
 <Logo>
